@@ -1,4 +1,4 @@
-# temp-verl
+# ERR
 ## 准备工作
 ```python
 conda create -n verl python=3.12
