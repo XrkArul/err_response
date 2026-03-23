@@ -126,6 +126,3 @@ logs
 log
 outputs
 .history
-
-# Wheel files
-*.whl
