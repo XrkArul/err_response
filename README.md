@@ -1,4 +1,5 @@
 ## 准备工作
+This project is built upon the veRL(https://github.com/verl-project/verl) framework, an open-source toolkit for reinforcement learning.
 ```python
 conda create -n verl python=3.12
 cd verl
