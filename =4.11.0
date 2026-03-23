@@ -1,0 +1,13 @@
+Looking in indexes: https://pypi.mirrors.ustc.edu.cn/simple
+Collecting opencv-python-headless
+  Downloading https://mirrors.ustc.edu.cn/pypi/packages/89/53/e19c21e0c4eb1275c3e2c97b081103b6dfb3938172264d283a519bf728b9/opencv_python_headless-4.12.0.88-cp37-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (54.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 54.0/54.0 MB 13.0 MB/s  0:00:04
+Collecting numpy<2.3.0,>=2 (from opencv-python-headless)
+  Using cached https://mirrors.ustc.edu.cn/pypi/packages/8c/3d/1e1db36cfd41f895d266b103df00ca5b3cbe965184df824dec5c08c6b803/numpy-2.2.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.5 MB)
+Installing collected packages: numpy, opencv-python-headless
+  Attempting uninstall: numpy
+    Found existing installation: numpy 1.26.4
+    Uninstalling numpy-1.26.4:
+      Successfully uninstalled numpy-1.26.4
+
+Successfully installed numpy-2.2.6 opencv-python-headless-4.12.0.88
