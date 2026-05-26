@@ -10,8 +10,6 @@ Official implementation of the paper **"ERR+: Sequential Entropy Resolution for 
 
 Large reasoning models (e.g., DeepSeek-R1, Qwen3) achieve strong performance by generating extended chain-of-thought traces and training with reinforcement learning from verifiable rewards (RLVR). However, binary correctness rewards provide no signal about reasoning *quality* — a concise, decisive trace and a verbose, meandering trace receive identical rewards if both reach the right answer.
 
-ERR+ addresses this with two complementary reward signals:
-
 ### Phase 1: Entropy Relief Reward (ERR)
 
 We observe empirically that **correct reasoning traces exhibit more frequent and deeper token-level entropy drops** within the `<think>` phase than incorrect ones. ERR rewards the *resolution* of uncertainty — not the suppression of entropy itself. This leaves exploratory high-entropy states unconstrained while incentivizing decisive commitment at reasoning milestones.
@@ -134,18 +132,6 @@ err_response/
 └── requirements.txt               # Python dependencies
 ```
 
-## Citation
-
-If you find this work useful, please cite:
-
-```bibtex
-@inproceedings{errplus2025,
-  title     = {{ERR+}: Sequential Entropy Resolution for Efficient and Decisive {LLM} Reasoning},
-  author    = {Anonymous},
-  booktitle = {ACL},
-  year      = {2025}
-}
-```
 
 ## License
 
