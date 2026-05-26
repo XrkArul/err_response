@@ -79,7 +79,7 @@ python -c "import verl; print('VERL installed successfully')"
 bash run_qwen3-8b.sh
 ```
 
-This launches GRPO training with the ERR+ reward function on the GSM8K dataset using DeepSeek-R1-Distill-Qwen-1.5B. The script is configured for 2 GPUs.
+This launches GRPO training with the ERR+ reward function on the GSM8K dataset using DeepSeek-R1-Distill-Qwen-1.5B.
 
 ### Using the ERR+ Reward Function
 
